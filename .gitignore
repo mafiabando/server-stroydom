@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables file
+.env
+
+# Optional: логи и временные файлы
+logs/
+*.log
+*.tmp
+
+# Optional: папка с билдом, если есть
+dist/
+build/
+
+# Optional: IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
