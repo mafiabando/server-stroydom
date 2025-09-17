@@ -6,8 +6,8 @@ require('dotenv').config();
 const app = express();
 const PORT = 4000;
 
-const TELEGRAM_BOT_TOKEN = '7437770429:AAGbvVQcKyQo9W60oo9vKO7kSs2tMg8QcGQ';
-const TELEGRAM_CHAT_ID = 616956857; // ваш личный chat_id
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
 app.use(bodyParser.json());
 
